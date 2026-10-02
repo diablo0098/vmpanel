@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}Coin Wallet - {{ panel_name }}{% endblock %}
+{% block header_title %}Coin Wallet{% endblock %}
+
+{% block content %}
+<div class="grid grid-2" style="margin-bottom: 1.5rem;">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title"><i class="fas fa-coins"></i> Available coins</h3>
+        </div>
+        <div style="font-size: 2rem; font-weight: 700; color: var(--accent-warning);">{{ balance }}</div>
+        <p class="text-muted">Coins are used to purchase VPS plans.</p>
+        <a href="{{ url_for('plan_store') }}" class="btn btn-primary"><i class="fas fa-store"></i> Browse VPS plans</a>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title"><i class="fas fa-calendar-check"></i> Daily reward</h3>
+        </div>
+        <p>Claim <strong>{{ daily_reward }} coins</strong> once each day.</p>
+        {% if claimed_today %}
+        <button class="btn btn-outline" disabled>Claimed for today</button>
+        {% else %}
+        <form method="post" action="{{ url_for('claim_daily_coins') }}">
+            <button class="btn btn-success" type="submit"><i class="fas fa-gift"></i> Claim daily coins</button>
+        </form>
+        {% endif %}
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title"><i class="fas fa-list"></i> Recent activity</h3>
+    </div>
+    {% if transactions %}
+    <div class="table-responsive">
+        <table class="table">
+            <thead><tr><th>Activity</th><th>Date</th><th>Change</th></tr></thead>
+            <tbody>
+                {% for transaction in transactions %}
+                <tr>
+                    <td>{{ transaction.description }}</td>
+                    <td>{{ transaction.created_at|relative_time }}</td>
+                    <td style="font-weight: 600; color: {% if transaction.amount > 0 %}var(--accent-success){% else %}var(--accent-danger){% endif %};">
+                        {% if transaction.amount > 0 %}+{% endif %}{{ transaction.amount }}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p class="text-muted">No coin activity yet.</p>
+    {% endif %}
+</div>
+{% endblock %}

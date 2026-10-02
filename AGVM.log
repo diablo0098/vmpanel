@@ -1,0 +1,497 @@
+﻿2026-03-10 03:21:14,330 - AGVM_panel - INFO - API blueprint registered at /api/v1
+2026-03-10 03:21:14,650 - AGVM_panel - INFO - Discord authentication fields added to users table
+2026-03-10 03:21:14,667 - AGVM_panel - INFO - AGVM PANEL v5.1-PRO-ULTIMATE starting...
+2026-03-10 03:21:14,697 - AGVM_panel - INFO - Starting server on 0.0.0.0:5000
+2026-03-10 03:21:14,697 - AGVM_panel - INFO - SocketIO available: True
+2026-03-10 03:21:14,697 - AGVM_panel - INFO - Starting with SocketIO support (production mode)
+2026-03-10 03:21:14,697 - AGVM_panel - INFO - Using Flask-SocketIO's built-in production server
+2026-03-10 03:21:14,697 - AGVM_panel - INFO - For best performance, ensure eventlet or gevent is installed:
+2026-03-10 03:21:14,697 - AGVM_panel - INFO -   pip install eventlet  OR  pip install gevent gevent-websocket
+2026-03-10 03:21:14,698 - werkzeug - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2026-03-10 03:21:14,702 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.3:5000
+2026-03-10 03:21:14,702 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 03:21:31,210 - AGVM_panel - INFO - API blueprint registered at /api/v1
+2026-03-10 03:21:31,255 - AGVM_panel - INFO - AGVM PANEL v5.1-PRO-ULTIMATE starting...
+2026-03-10 03:21:31,257 - AGVM_panel - INFO - Starting server on 0.0.0.0:5000
+2026-03-10 03:21:31,260 - AGVM_panel - INFO - SocketIO available: True
+2026-03-10 03:21:31,260 - AGVM_panel - INFO - Starting with SocketIO support (production mode)
+2026-03-10 03:21:31,260 - AGVM_panel - INFO - Using Flask-SocketIO's built-in production server
+2026-03-10 03:21:31,260 - AGVM_panel - INFO - For best performance, ensure eventlet or gevent is installed:
+2026-03-10 03:21:31,260 - AGVM_panel - INFO -   pip install eventlet  OR  pip install gevent gevent-websocket
+2026-03-10 03:21:31,260 - werkzeug - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2026-03-10 03:21:31,265 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.3:5000
+2026-03-10 03:21:31,265 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 03:23:18,640 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:18] "GET / HTTP/1.1" 200 -
+2026-03-10 03:23:19,495 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:19] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 03:23:20,742 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:20] "GET /login HTTP/1.1" 200 -
+2026-03-10 03:23:23,539 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:23] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 03:23:26,417 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:26] "POST /login HTTP/1.1" 200 -
+2026-03-10 03:23:36,427 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 03:23:36,877 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:36] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 03:23:37,329 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:37] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:23:37,381 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:37] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:23:37,540 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:37] "GET /socket.io/?EIO=4&transport=polling&t=PpLnO7p HTTP/1.1" 200 -
+2026-03-10 03:23:37,881 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:37] "GET /socket.io/?EIO=4&transport=polling&t=PpLnOD4&sid=t9IHa8f-QCX9tpLVAAAA HTTP/1.1" 200 -
+2026-03-10 03:23:37,884 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:37] "POST /socket.io/?EIO=4&transport=polling&t=PpLnOCt&sid=t9IHa8f-QCX9tpLVAAAA HTTP/1.1" 200 -
+2026-03-10 03:23:38,338 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:38] "GET /socket.io/?EIO=4&transport=polling&t=PpLnOK3&sid=t9IHa8f-QCX9tpLVAAAA HTTP/1.1" 200 -
+2026-03-10 03:23:38,673 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:38] "GET /socket.io/?EIO=4&transport=polling&t=PpLnOPB&sid=t9IHa8f-QCX9tpLVAAAA HTTP/1.1" 200 -
+2026-03-10 03:23:38,987 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:38] "GET /socket.io/?EIO=4&transport=polling&t=PpLnOUN&sid=t9IHa8f-QCX9tpLVAAAA HTTP/1.1" 200 -
+2026-03-10 03:23:41,236 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:41] "GET /socket.io/?EIO=4&transport=websocket&sid=t9IHa8f-QCX9tpLVAAAA HTTP/1.1" 200 -
+2026-03-10 03:23:41,318 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:41] "GET /admin/nodes HTTP/1.1" 200 -
+2026-03-10 03:23:41,752 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:41] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:23:41,757 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:41] "GET /socket.io/?EIO=4&transport=polling&t=PpLnP9b HTTP/1.1" 200 -
+2026-03-10 03:23:42,149 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:42] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:23:42,198 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:42] "POST /socket.io/?EIO=4&transport=polling&t=PpLnPFh&sid=FgxDSxCeg52QK_MfAAAC HTTP/1.1" 200 -
+2026-03-10 03:23:42,199 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:42] "GET /socket.io/?EIO=4&transport=polling&t=PpLnPFr&sid=FgxDSxCeg52QK_MfAAAC HTTP/1.1" 200 -
+2026-03-10 03:23:42,989 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:42] "GET /socket.io/?EIO=4&transport=polling&t=PpLnPLe&sid=FgxDSxCeg52QK_MfAAAC HTTP/1.1" 200 -
+2026-03-10 03:23:43,364 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:43] "GET /socket.io/?EIO=4&transport=polling&t=PpLnPYF&sid=FgxDSxCeg52QK_MfAAAC HTTP/1.1" 200 -
+2026-03-10 03:23:46,069 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:46] "[32mGET /admin/nodes HTTP/1.1[0m" 302 -
+2026-03-10 03:23:46,844 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:46] "GET /login?next=/admin/nodes HTTP/1.1" 200 -
+2026-03-10 03:23:47,859 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:47] "GET /socket.io/?EIO=4&transport=websocket&sid=FgxDSxCeg52QK_MfAAAC HTTP/1.1" 200 -
+2026-03-10 03:23:47,878 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:47] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 03:23:48,443 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:48] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:23:48,461 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:48] "GET /admin/vps/expiring?days=30 HTTP/1.1" 200 -
+2026-03-10 03:23:48,485 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:48] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:23:50,464 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:50] "GET /admin/users/create HTTP/1.1" 200 -
+2026-03-10 03:23:50,907 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:50] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:23:50,969 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:23:50] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:24:11,266 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:11] "[35m[1mPOST /admin/users/create HTTP/1.1[0m" 201 -
+2026-03-10 03:24:13,649 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:13] "GET /admin/users HTTP/1.1" 200 -
+2026-03-10 03:24:14,209 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:14] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:24:14,244 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:14] "GET /admin/vps/expiring?days=30 HTTP/1.1" 200 -
+2026-03-10 03:24:14,245 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:14] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:24:14,517 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:14] "GET /os-icons HTTP/1.1" 200 -
+2026-03-10 03:24:15,053 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:15] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:24:15,074 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:15] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:24:17,336 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:17] "GET /admin/vps HTTP/1.1" 200 -
+2026-03-10 03:24:17,831 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:17] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:24:17,834 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:17] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:24:17,867 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:17] "GET /socket.io/?EIO=4&transport=polling&t=PpLnXzb HTTP/1.1" 200 -
+2026-03-10 03:24:18,257 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:18] "GET /socket.io/?EIO=4&transport=polling&t=PpLnY3X&sid=QM69PvFaEfV21RbcAAAE HTTP/1.1" 200 -
+2026-03-10 03:24:18,258 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:18] "POST /socket.io/?EIO=4&transport=polling&t=PpLnY3V&sid=QM69PvFaEfV21RbcAAAE HTTP/1.1" 200 -
+2026-03-10 03:24:18,593 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:18] "GET /socket.io/?EIO=4&transport=polling&t=PpLnY8z&sid=QM69PvFaEfV21RbcAAAE HTTP/1.1" 200 -
+2026-03-10 03:24:18,901 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:18] "GET /socket.io/?EIO=4&transport=polling&t=PpLnYDz&sid=QM69PvFaEfV21RbcAAAE HTTP/1.1" 200 -
+2026-03-10 03:24:19,232 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:19] "GET /socket.io/?EIO=4&transport=polling&t=PpLnYJ1&sid=QM69PvFaEfV21RbcAAAE HTTP/1.1" 200 -
+2026-03-10 03:24:21,260 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:21] "GET /socket.io/?EIO=4&transport=websocket&sid=QM69PvFaEfV21RbcAAAE HTTP/1.1" 200 -
+2026-03-10 03:24:21,275 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:21] "GET /admin/nodes HTTP/1.1" 200 -
+2026-03-10 03:24:21,641 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:21] "[32mGET /admin/vps HTTP/1.1[0m" 302 -
+2026-03-10 03:24:21,803 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:21] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:24:21,825 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:21] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:24:21,866 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:21] "GET /socket.io/?EIO=4&transport=polling&t=PpLnYxy HTTP/1.1" 200 -
+2026-03-10 03:24:22,236 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:22] "GET /socket.io/?EIO=4&transport=polling&t=PpLnZ1n&sid=65j5IOuKnnb9EhLIAAAG HTTP/1.1" 200 -
+2026-03-10 03:24:22,238 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:22] "POST /socket.io/?EIO=4&transport=polling&t=PpLnZ1l&sid=65j5IOuKnnb9EhLIAAAG HTTP/1.1" 200 -
+2026-03-10 03:24:22,454 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:22] "POST /socket.io/?EIO=4&transport=polling&t=PpLnZ4m&sid=65j5IOuKnnb9EhLIAAAG HTTP/1.1" 200 -
+2026-03-10 03:24:22,466 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:22] "GET /admin/nodes/create HTTP/1.1" 200 -
+2026-03-10 03:24:22,779 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:22] "GET /login?next=/admin/vps HTTP/1.1" 200 -
+2026-03-10 03:24:22,966 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:22] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:24:22,971 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:22] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:24:23,952 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:23] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 03:24:29,535 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:29] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 03:24:34,461 - AGVM_panel - INFO - Node created: IN-1 (ID: 1) - Local - SSL Verify: True
+2026-03-10 03:24:34,475 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:34] "POST /admin/nodes/create HTTP/1.1" 200 -
+2026-03-10 03:24:36,145 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:36] "GET /admin/nodes HTTP/1.1" 200 -
+2026-03-10 03:24:36,603 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:36] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:24:36,608 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:36] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:24:36,657 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:36] "GET /socket.io/?EIO=4&transport=polling&t=PpLncZW HTTP/1.1" 200 -
+2026-03-10 03:24:36,997 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:36] "GET /socket.io/?EIO=4&transport=polling&t=PpLnceh&sid=dBbl9xF2lyleQ8K8AAAI HTTP/1.1" 200 -
+2026-03-10 03:24:36,998 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:36] "POST /socket.io/?EIO=4&transport=polling&t=PpLnceg&sid=dBbl9xF2lyleQ8K8AAAI HTTP/1.1" 200 -
+2026-03-10 03:24:37,324 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:37] "GET /socket.io/?EIO=4&transport=polling&t=PpLncjd&sid=dBbl9xF2lyleQ8K8AAAI HTTP/1.1" 200 -
+2026-03-10 03:24:37,633 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:37] "GET /socket.io/?EIO=4&transport=polling&t=PpLncom&sid=dBbl9xF2lyleQ8K8AAAI HTTP/1.1" 200 -
+2026-03-10 03:24:37,938 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:37] "GET /socket.io/?EIO=4&transport=polling&t=PpLnctW&sid=dBbl9xF2lyleQ8K8AAAI HTTP/1.1" 200 -
+2026-03-10 03:24:41,008 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:41] "GET / HTTP/1.1" 200 -
+2026-03-10 03:24:41,118 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:41] "GET /socket.io/?EIO=4&transport=websocket&sid=dBbl9xF2lyleQ8K8AAAI HTTP/1.1" 200 -
+2026-03-10 03:24:41,166 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:41] "GET /admin/vps HTTP/1.1" 200 -
+2026-03-10 03:24:41,582 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:41] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:24:41,631 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:41] "GET /socket.io/?EIO=4&transport=polling&t=PpLndnG HTTP/1.1" 200 -
+2026-03-10 03:24:41,635 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:41] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:24:41,951 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:41] "POST /socket.io/?EIO=4&transport=polling&t=PpLnds2&sid=8O38jNomziPp8xCwAAAK HTTP/1.1" 200 -
+2026-03-10 03:24:41,959 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:41] "GET /socket.io/?EIO=4&transport=polling&t=PpLnds3&sid=8O38jNomziPp8xCwAAAK HTTP/1.1" 200 -
+2026-03-10 03:24:42,548 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:42] "POST /socket.io/?EIO=4&transport=polling&t=PpLnd_Q&sid=8O38jNomziPp8xCwAAAK HTTP/1.1" 200 -
+2026-03-10 03:24:42,603 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:42] "GET /socket.io/?EIO=4&transport=polling&t=PpLndxb&sid=8O38jNomziPp8xCwAAAK HTTP/1.1" 200 -
+2026-03-10 03:24:42,605 - engineio.server - ERROR - Invalid session 8O38jNomziPp8xCwAAAK (further occurrences of this error will be logged with level INFO)
+2026-03-10 03:24:42,606 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:42] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=8O38jNomziPp8xCwAAAK HTTP/1.1[0m" 400 -
+2026-03-10 03:24:42,619 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:42] "GET /admin/vps/create HTTP/1.1" 200 -
+2026-03-10 03:24:42,727 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:42] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 03:24:43,181 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:43] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:24:43,188 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:43] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:24:44,399 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:44] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 03:24:49,251 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:49] "GET /register HTTP/1.1" 200 -
+2026-03-10 03:24:51,793 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:51] "GET /login HTTP/1.1" 200 -
+2026-03-10 03:24:53,807 - AGVM_panel - ERROR - LXC Error: lxc init ubuntu:22.04 in -s default - [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:24:53,810 - AGVM_panel - ERROR - VPS creation error: [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:24:53,813 - AGVM_panel - ERROR - LXC Error: lxc delete in --force - [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:24:53,815 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:24:53] "[35m[1mPOST /admin/vps/create HTTP/1.1[0m" 500 -
+2026-03-10 03:25:00,417 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:00] "GET /login HTTP/1.1" 200 -
+2026-03-10 03:25:01,737 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:01] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 03:25:02,164 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 03:25:03,023 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:03] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 03:25:03,966 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:03] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:25:03,974 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:03] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:25:04,333 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:04] "GET /socket.io/?EIO=4&transport=polling&t=PpLnjDw HTTP/1.1" 200 -
+2026-03-10 03:25:04,728 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:04] "POST /socket.io/?EIO=4&transport=polling&t=PpLnjKj&sid=twrR1uQKIPHDLsotAAAM HTTP/1.1" 200 -
+2026-03-10 03:25:04,733 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:04] "GET /socket.io/?EIO=4&transport=polling&t=PpLnjKp&sid=twrR1uQKIPHDLsotAAAM HTTP/1.1" 200 -
+2026-03-10 03:25:05,115 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:05] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 03:25:05,618 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:05] "GET /socket.io/?EIO=4&transport=polling&t=PpLnjQ8&sid=twrR1uQKIPHDLsotAAAM HTTP/1.1" 200 -
+2026-03-10 03:25:31,743 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:31] "GET /socket.io/?EIO=4&transport=websocket&sid=twrR1uQKIPHDLsotAAAM HTTP/1.1" 200 -
+2026-03-10 03:25:31,855 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:31] "GET /admin/vps/create HTTP/1.1" 200 -
+2026-03-10 03:25:32,268 - AGVM_panel - INFO - Node IN-1: CPU 69.0%, RAM 46.0%
+2026-03-10 03:25:32,553 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:32] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:25:32,607 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:32] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:25:46,219 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:46] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:25:46,583 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:25:46] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:26:00,754 - AGVM_panel - ERROR - LXC Error: lxc init ubuntu:20.04 boost -s default - [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:26:00,754 - AGVM_panel - ERROR - VPS creation error: [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:26:00,757 - AGVM_panel - ERROR - LXC Error: lxc delete boost --force - [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:26:00,757 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:26:00] "[35m[1mPOST /admin/vps/create HTTP/1.1[0m" 500 -
+2026-03-10 03:26:02,719 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:26:02] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:26:02,841 - AGVM_panel - ERROR - LXC Error: lxc init ubuntu:20.04 boost -s default - [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:26:02,842 - AGVM_panel - ERROR - VPS creation error: [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:26:02,844 - AGVM_panel - ERROR - LXC Error: lxc delete boost --force - [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:26:02,845 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:26:02] "[35m[1mPOST /admin/vps/create HTTP/1.1[0m" 500 -
+2026-03-10 03:26:04,166 - AGVM_panel - ERROR - LXC Error: lxc init ubuntu:20.04 boost -s default - [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:26:04,166 - AGVM_panel - ERROR - VPS creation error: [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:26:04,168 - AGVM_panel - ERROR - LXC Error: lxc delete boost --force - [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:26:04,169 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:26:04] "[35m[1mPOST /admin/vps/create HTTP/1.1[0m" 500 -
+2026-03-10 03:26:08,364 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:26:08] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:26:11,808 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:26:11] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:26:32,907 - AGVM_panel - INFO - Node IN-1: CPU 60.6%, RAM 46.3%
+2026-03-10 03:26:34,410 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:26:34] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:26:57,223 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:26:57] "GET /socket.io/?EIO=4&transport=polling&t=PpLo8ob HTTP/1.1" 200 -
+2026-03-10 03:26:57,533 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:26:57] "POST /socket.io/?EIO=4&transport=polling&t=PpLo8tT&sid=cVM5gfdWmB2s5raUAAAO HTTP/1.1" 200 -
+2026-03-10 03:26:57,537 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:26:57] "GET /socket.io/?EIO=4&transport=polling&t=PpLo8tX&sid=cVM5gfdWmB2s5raUAAAO HTTP/1.1" 200 -
+2026-03-10 03:26:58,423 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:26:58] "GET /socket.io/?EIO=4&transport=polling&t=PpLo8ya&sid=cVM5gfdWmB2s5raUAAAO HTTP/1.1" 200 -
+2026-03-10 03:27:04,221 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:27:04] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:27:33,530 - AGVM_panel - INFO - Node IN-1: CPU 60.4%, RAM 46.2%
+2026-03-10 03:27:33,960 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:27:33] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:28:03,981 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:28:03] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:28:34,110 - AGVM_panel - INFO - Node IN-1: CPU 62.5%, RAM 46.2%
+2026-03-10 03:28:34,509 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:28:34] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:29:04,575 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:29:04] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:29:33,963 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:29:33] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:29:34,690 - AGVM_panel - INFO - Node IN-1: CPU 51.0%, RAM 46.2%
+2026-03-10 03:30:04,000 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:04] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:30:04,009 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:04] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:30:26,222 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:26] "GET / HTTP/1.1" 200 -
+2026-03-10 03:30:27,540 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:27] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 03:30:29,738 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:29] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 03:30:29,769 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:29] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 03:30:34,023 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:34] "GET /login HTTP/1.1" 200 -
+2026-03-10 03:30:34,538 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:34] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:30:35,276 - AGVM_panel - INFO - Node IN-1: CPU 57.4%, RAM 46.2%
+2026-03-10 03:30:40,748 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-10 03:30:41,639 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:41] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 03:30:42,398 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:42] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:30:42,571 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:42] "GET /socket.io/?EIO=4&transport=polling&t=PpLo_mk HTTP/1.1" 200 -
+2026-03-10 03:30:42,688 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:42] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 03:30:42,926 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:42] "GET /socket.io/?EIO=4&transport=polling&t=PpLo_s9&sid=eehoCQRX-79BQGaDAAAQ HTTP/1.1" 200 -
+2026-03-10 03:30:42,928 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:42] "POST /socket.io/?EIO=4&transport=polling&t=PpLo_s1&sid=eehoCQRX-79BQGaDAAAQ HTTP/1.1" 200 -
+2026-03-10 03:30:42,948 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:42] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:30:43,259 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:43] "GET /socket.io/?EIO=4&transport=polling&t=PpLo_xV&sid=eehoCQRX-79BQGaDAAAQ HTTP/1.1" 200 -
+2026-03-10 03:30:43,572 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:43] "GET /socket.io/?EIO=4&transport=polling&t=PpLp00n&sid=eehoCQRX-79BQGaDAAAQ HTTP/1.1" 200 -
+2026-03-10 03:30:43,896 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:43] "GET /socket.io/?EIO=4&transport=polling&t=PpLp05t&sid=eehoCQRX-79BQGaDAAAQ HTTP/1.1" 200 -
+2026-03-10 03:30:51,322 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:51] "GET /socket.io/?EIO=4&transport=websocket&sid=eehoCQRX-79BQGaDAAAQ HTTP/1.1" 200 -
+2026-03-10 03:30:51,411 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:51] "GET /notifications HTTP/1.1" 200 -
+2026-03-10 03:30:51,960 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:51] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:30:51,978 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:51] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:30:52,660 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:52] "GET /vps HTTP/1.1" 200 -
+2026-03-10 03:30:53,275 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:53] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:30:53,477 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:53] "GET /socket.io/?EIO=4&transport=polling&t=PpLp2Oa HTTP/1.1" 200 -
+2026-03-10 03:30:53,485 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:53] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:30:53,742 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:53] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 03:30:53,931 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:53] "GET /socket.io/?EIO=4&transport=polling&t=PpLp2YY&sid=y3FVNRMRMoPi896JAAAS HTTP/1.1" 200 -
+2026-03-10 03:30:53,935 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:53] "POST /socket.io/?EIO=4&transport=polling&t=PpLp2YT&sid=y3FVNRMRMoPi896JAAAS HTTP/1.1" 200 -
+2026-03-10 03:30:54,275 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:54] "GET /socket.io/?EIO=4&transport=polling&t=PpLp2dw&sid=y3FVNRMRMoPi896JAAAS HTTP/1.1" 200 -
+2026-03-10 03:30:54,355 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:54] "POST /socket.io/?EIO=4&transport=polling&t=PpLp2f5&sid=y3FVNRMRMoPi896JAAAS HTTP/1.1" 200 -
+2026-03-10 03:30:54,457 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:54] "GET /admin/settings HTTP/1.1" 200 -
+2026-03-10 03:30:54,504 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:54] "[35m[1mGET /socket.io/?EIO=4&transport=websocket&sid=y3FVNRMRMoPi896JAAAS HTTP/1.1[0m" 500 -
+2026-03-10 03:30:54,507 - werkzeug - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask_socketio/__init__.py", line 43, in __call__
+    return super(_SocketIOMiddleware, self).__call__(environ,
+  File "/usr/local/lib/python3.10/dist-packages/engineio/middleware.py", line 63, in __call__
+    return self.engineio_app.handle_request(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/socketio/server.py", line 430, in handle_request
+    return self.eio.handle_request(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/engineio/server.py", line 272, in handle_request
+    socket = self._get_socket(sid)
+  File "/usr/local/lib/python3.10/dist-packages/engineio/base_server.py", line 229, in _get_socket
+    raise KeyError('Session is disconnected')
+KeyError: 'Session is disconnected'
+2026-03-10 03:30:55,105 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:55] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:30:55,109 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:55] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:30:57,747 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:57] "[32mGET /admin/vps/create HTTP/1.1[0m" 302 -
+2026-03-10 03:30:58,814 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:58] "GET /login?next=/admin/vps/create HTTP/1.1" 200 -
+2026-03-10 03:30:59,592 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:30:59] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 03:31:00,979 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:00] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 03:31:03,979 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:03] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:31:25,071 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:25] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:31:34,564 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:34] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:31:35,872 - AGVM_panel - INFO - Node IN-1: CPU 50.9%, RAM 46.2%
+2026-03-10 03:31:50,974 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:50] "[32mPOST /admin/settings HTTP/1.1[0m" 302 -
+2026-03-10 03:31:51,342 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:51] "GET /admin/settings HTTP/1.1" 200 -
+2026-03-10 03:31:52,186 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:52] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:31:52,206 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:52] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:31:58,060 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:58] "GET /os-icons HTTP/1.1" 200 -
+2026-03-10 03:31:58,755 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:58] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:31:59,280 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:59] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 03:31:59,378 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:31:59] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:32:03,997 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:03] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:32:05,409 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:05] "GET /admin/nodes HTTP/1.1" 200 -
+2026-03-10 03:32:06,076 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:06] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:32:06,079 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:06] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:32:06,153 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:06] "GET /socket.io/?EIO=4&transport=polling&t=PpLpKAR HTTP/1.1" 200 -
+2026-03-10 03:32:06,561 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:06] "POST /socket.io/?EIO=4&transport=polling&t=PpLpKHF&sid=PGfvDXxIJ5TAnbcgAAAU HTTP/1.1" 200 -
+2026-03-10 03:32:06,568 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:06] "GET /socket.io/?EIO=4&transport=polling&t=PpLpKHH&sid=PGfvDXxIJ5TAnbcgAAAU HTTP/1.1" 200 -
+2026-03-10 03:32:07,830 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:07] "GET /socket.io/?EIO=4&transport=polling&t=PpLpKOJ&sid=PGfvDXxIJ5TAnbcgAAAU HTTP/1.1" 200 -
+2026-03-10 03:32:10,682 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:10] "GET /socket.io/?EIO=4&transport=websocket&sid=PGfvDXxIJ5TAnbcgAAAU HTTP/1.1" 200 -
+2026-03-10 03:32:11,829 - AGVM_panel - ERROR - LXC Error: lxc storage list - [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:32:11,831 - AGVM_panel - ERROR - LXC Error: lxc network list - [Errno 2] No such file or directory: 'lxc'
+2026-03-10 03:32:11,847 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:11] "GET /admin/nodes/1/view HTTP/1.1" 200 -
+2026-03-10 03:32:12,771 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:12] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:32:12,784 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:12] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:32:33,997 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:33] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:32:36,447 - AGVM_panel - INFO - Node IN-1: CPU 45.5%, RAM 46.3%
+2026-03-10 03:32:42,761 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:42] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:32:42,991 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:42] "GET /admin/nodes HTTP/1.1" 200 -
+2026-03-10 03:32:43,517 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:43] "GET /socket.io/?EIO=4&transport=polling&t=PpLpTIn HTTP/1.1" 200 -
+2026-03-10 03:32:43,522 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:43] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:32:43,586 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:43] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:32:43,888 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:43] "POST /socket.io/?EIO=4&transport=polling&t=PpLpTOf&sid=giDv3tSWOKhrxbF8AAAW HTTP/1.1" 200 -
+2026-03-10 03:32:43,929 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:43] "GET /socket.io/?EIO=4&transport=polling&t=PpLpTOh&sid=giDv3tSWOKhrxbF8AAAW HTTP/1.1" 200 -
+2026-03-10 03:32:44,412 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:44] "POST /socket.io/?EIO=4&transport=polling&t=PpLpTUL&sid=giDv3tSWOKhrxbF8AAAW HTTP/1.1" 200 -
+2026-03-10 03:32:44,420 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:44] "GET /admin/nodes/create HTTP/1.1" 200 -
+2026-03-10 03:32:44,526 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:44] "[35m[1mGET /socket.io/?EIO=4&transport=websocket&sid=giDv3tSWOKhrxbF8AAAW HTTP/1.1[0m" 500 -
+2026-03-10 03:32:44,527 - werkzeug - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask_socketio/__init__.py", line 43, in __call__
+    return super(_SocketIOMiddleware, self).__call__(environ,
+  File "/usr/local/lib/python3.10/dist-packages/engineio/middleware.py", line 63, in __call__
+    return self.engineio_app.handle_request(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/socketio/server.py", line 430, in handle_request
+    return self.eio.handle_request(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/engineio/server.py", line 272, in handle_request
+    socket = self._get_socket(sid)
+  File "/usr/local/lib/python3.10/dist-packages/engineio/base_server.py", line 229, in _get_socket
+    raise KeyError('Session is disconnected')
+KeyError: 'Session is disconnected'
+2026-03-10 03:32:45,081 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:45] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:32:45,096 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:45] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:32:56,238 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:56] "GET /admin/nodes HTTP/1.1" 200 -
+2026-03-10 03:32:56,802 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:56] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:32:56,858 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:56] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:32:56,863 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:56] "GET /socket.io/?EIO=4&transport=polling&t=PpLpWY4 HTTP/1.1" 200 -
+2026-03-10 03:32:57,584 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:57] "GET /socket.io/?EIO=4&transport=polling&t=PpLpWeZ&sid=VKJjUO-PpC5BhSjMAAAY HTTP/1.1" 200 -
+2026-03-10 03:32:57,592 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:57] "POST /socket.io/?EIO=4&transport=polling&t=PpLpWeX&sid=VKJjUO-PpC5BhSjMAAAY HTTP/1.1" 200 -
+2026-03-10 03:32:57,596 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:57] "POST /socket.io/?EIO=4&transport=polling&t=PpLpWfy&sid=VKJjUO-PpC5BhSjMAAAY HTTP/1.1" 200 -
+2026-03-10 03:32:57,783 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:57] "[35m[1mGET /socket.io/?EIO=4&transport=websocket&sid=VKJjUO-PpC5BhSjMAAAY HTTP/1.1[0m" 500 -
+2026-03-10 03:32:57,785 - werkzeug - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask_socketio/__init__.py", line 43, in __call__
+    return super(_SocketIOMiddleware, self).__call__(environ,
+  File "/usr/local/lib/python3.10/dist-packages/engineio/middleware.py", line 63, in __call__
+    return self.engineio_app.handle_request(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/socketio/server.py", line 430, in handle_request
+    return self.eio.handle_request(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/engineio/server.py", line 272, in handle_request
+    socket = self._get_socket(sid)
+  File "/usr/local/lib/python3.10/dist-packages/engineio/base_server.py", line 229, in _get_socket
+    raise KeyError('Session is disconnected')
+KeyError: 'Session is disconnected'
+2026-03-10 03:32:58,666 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:58] "GET /admin HTTP/1.1" 200 -
+2026-03-10 03:32:59,241 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:59] "GET /socket.io/?EIO=4&transport=polling&t=PpLpX87 HTTP/1.1" 200 -
+2026-03-10 03:32:59,321 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:59] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:32:59,329 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:59] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 03:32:59,594 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:59] "POST /socket.io/?EIO=4&transport=polling&t=PpLpXDt&sid=fOO22vD-_QdfXMm0AAAa HTTP/1.1" 200 -
+2026-03-10 03:32:59,613 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:32:59] "GET /socket.io/?EIO=4&transport=polling&t=PpLpXDx&sid=fOO22vD-_QdfXMm0AAAa HTTP/1.1" 200 -
+2026-03-10 03:33:00,692 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:33:00] "GET /socket.io/?EIO=4&transport=polling&t=PpLpXJQ&sid=fOO22vD-_QdfXMm0AAAa HTTP/1.1" 200 -
+2026-03-10 03:33:03,980 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:33:03] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 03:33:08,721 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:33:08] "GET /socket.io/?EIO=4&transport=websocket&sid=fOO22vD-_QdfXMm0AAAa HTTP/1.1" 200 -
+2026-03-10 03:33:26,181 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 03:33:26] "GET /socket.io/?EIO=4&transport=websocket&sid=cVM5gfdWmB2s5raUAAAO HTTP/1.1" 200 -
+2026-03-10 03:33:37,173 - AGVM_panel - INFO - Node IN-1: CPU 51.1%, RAM 46.2%
+2026-03-10 03:34:37,759 - AGVM_panel - INFO - Node IN-1: CPU 58.7%, RAM 46.2%
+2026-03-10 03:35:38,326 - AGVM_panel - INFO - Node IN-1: CPU 51.9%, RAM 46.2%
+2026-03-10 03:36:39,040 - AGVM_panel - INFO - Node IN-1: CPU 50.0%, RAM 46.2%
+2026-03-10 03:37:39,660 - AGVM_panel - INFO - Node IN-1: CPU 54.6%, RAM 46.2%
+2026-03-10 03:38:40,495 - AGVM_panel - INFO - Node IN-1: CPU 56.1%, RAM 46.2%
+2026-03-10 03:39:41,061 - AGVM_panel - INFO - Node IN-1: CPU 53.0%, RAM 46.2%
+2026-03-10 03:40:41,649 - AGVM_panel - INFO - Node IN-1: CPU 58.0%, RAM 46.2%
+2026-03-10 03:41:42,217 - AGVM_panel - INFO - Node IN-1: CPU 51.4%, RAM 46.2%
+2026-03-10 03:42:42,783 - AGVM_panel - INFO - Node IN-1: CPU 58.3%, RAM 46.2%
+2026-03-10 03:43:43,396 - AGVM_panel - INFO - Node IN-1: CPU 57.5%, RAM 46.3%
+2026-03-10 03:44:43,962 - AGVM_panel - INFO - Node IN-1: CPU 49.2%, RAM 46.4%
+2026-03-10 03:45:44,545 - AGVM_panel - INFO - Node IN-1: CPU 57.6%, RAM 46.4%
+2026-03-10 03:46:45,115 - AGVM_panel - INFO - Node IN-1: CPU 74.6%, RAM 46.8%
+2026-03-10 03:47:45,687 - AGVM_panel - INFO - Node IN-1: CPU 64.4%, RAM 46.9%
+2026-03-10 03:48:46,232 - AGVM_panel - INFO - Node IN-1: CPU 70.4%, RAM 46.8%
+2026-03-10 03:49:46,788 - AGVM_panel - INFO - Node IN-1: CPU 64.7%, RAM 46.6%
+2026-03-10 03:50:47,357 - AGVM_panel - INFO - Node IN-1: CPU 70.1%, RAM 46.8%
+2026-03-10 03:51:47,925 - AGVM_panel - INFO - Node IN-1: CPU 62.2%, RAM 46.7%
+2026-03-10 03:52:48,479 - AGVM_panel - INFO - Node IN-1: CPU 60.7%, RAM 46.7%
+2026-03-10 03:53:49,054 - AGVM_panel - INFO - Node IN-1: CPU 61.9%, RAM 45.6%
+2026-03-10 03:54:49,596 - AGVM_panel - INFO - Node IN-1: CPU 65.9%, RAM 46.0%
+2026-03-10 03:55:50,163 - AGVM_panel - INFO - Node IN-1: CPU 70.5%, RAM 45.9%
+2026-03-10 03:56:50,834 - AGVM_panel - INFO - Node IN-1: CPU 58.8%, RAM 45.9%
+2026-03-10 03:57:51,404 - AGVM_panel - INFO - Node IN-1: CPU 63.4%, RAM 46.0%
+2026-03-10 03:58:51,979 - AGVM_panel - INFO - Node IN-1: CPU 73.5%, RAM 46.2%
+2026-03-10 03:59:52,550 - AGVM_panel - INFO - Node IN-1: CPU 63.4%, RAM 46.9%
+2026-03-10 04:00:53,169 - AGVM_panel - INFO - Node IN-1: CPU 64.2%, RAM 47.3%
+2026-03-10 04:01:53,723 - AGVM_panel - INFO - Node IN-1: CPU 50.1%, RAM 47.0%
+2026-03-10 04:02:54,635 - AGVM_panel - INFO - Node IN-1: CPU 56.0%, RAM 47.1%
+2026-03-10 04:03:55,244 - AGVM_panel - INFO - Node IN-1: CPU 59.2%, RAM 47.1%
+2026-03-10 04:04:55,812 - AGVM_panel - INFO - Node IN-1: CPU 47.6%, RAM 47.0%
+2026-03-10 04:05:56,381 - AGVM_panel - INFO - Node IN-1: CPU 55.1%, RAM 47.0%
+2026-03-10 04:06:56,956 - AGVM_panel - INFO - Node IN-1: CPU 55.9%, RAM 47.0%
+2026-03-10 04:07:57,526 - AGVM_panel - INFO - Node IN-1: CPU 55.2%, RAM 47.0%
+2026-03-10 04:08:58,080 - AGVM_panel - INFO - Node IN-1: CPU 57.9%, RAM 47.2%
+2026-03-10 04:09:58,735 - AGVM_panel - INFO - Node IN-1: CPU 59.6%, RAM 47.2%
+2026-03-10 04:10:59,305 - AGVM_panel - INFO - Node IN-1: CPU 62.3%, RAM 47.1%
+2026-03-10 04:11:59,875 - AGVM_panel - INFO - Node IN-1: CPU 61.3%, RAM 47.2%
+2026-03-10 04:13:00,454 - AGVM_panel - INFO - Node IN-1: CPU 51.0%, RAM 47.1%
+2026-03-10 04:14:01,223 - AGVM_panel - INFO - Node IN-1: CPU 56.6%, RAM 47.3%
+2026-03-10 04:15:02,474 - AGVM_panel - INFO - Node IN-1: CPU 56.1%, RAM 47.3%
+2026-03-10 04:16:03,221 - AGVM_panel - INFO - Node IN-1: CPU 56.7%, RAM 47.2%
+2026-03-10 04:17:03,789 - AGVM_panel - INFO - Node IN-1: CPU 61.6%, RAM 47.2%
+2026-03-10 04:18:04,336 - AGVM_panel - INFO - Node IN-1: CPU 57.9%, RAM 47.1%
+2026-03-10 04:19:04,903 - AGVM_panel - INFO - Node IN-1: CPU 56.9%, RAM 47.1%
+2026-03-10 04:20:05,476 - AGVM_panel - INFO - Node IN-1: CPU 50.6%, RAM 47.1%
+2026-03-10 04:21:06,148 - AGVM_panel - INFO - Node IN-1: CPU 46.3%, RAM 47.1%
+2026-03-10 04:21:36,190 - AGVM_panel - INFO - Database backup created: AGVM_backup_20260310_042136.db
+2026-03-10 04:22:06,806 - AGVM_panel - INFO - Node IN-1: CPU 72.2%, RAM 45.9%
+2026-03-10 04:23:07,367 - AGVM_panel - INFO - Node IN-1: CPU 61.1%, RAM 46.0%
+2026-03-10 04:24:07,925 - AGVM_panel - INFO - Node IN-1: CPU 62.8%, RAM 45.8%
+2026-03-10 04:25:08,496 - AGVM_panel - INFO - Node IN-1: CPU 70.6%, RAM 45.9%
+2026-03-10 04:26:09,073 - AGVM_panel - INFO - Node IN-1: CPU 73.7%, RAM 45.8%
+2026-03-10 04:27:09,642 - AGVM_panel - INFO - Node IN-1: CPU 76.1%, RAM 45.8%
+2026-03-10 04:28:10,213 - AGVM_panel - INFO - Node IN-1: CPU 64.4%, RAM 45.7%
+2026-03-10 04:29:10,785 - AGVM_panel - INFO - Node IN-1: CPU 62.0%, RAM 46.0%
+2026-03-10 04:30:11,351 - AGVM_panel - INFO - Node IN-1: CPU 60.8%, RAM 46.1%
+2026-03-10 04:31:11,921 - AGVM_panel - INFO - Node IN-1: CPU 67.3%, RAM 46.0%
+2026-03-10 04:32:12,491 - AGVM_panel - INFO - Node IN-1: CPU 59.4%, RAM 46.4%
+2026-03-10 04:33:13,060 - AGVM_panel - INFO - Node IN-1: CPU 61.8%, RAM 46.3%
+2026-03-10 04:34:13,630 - AGVM_panel - INFO - Node IN-1: CPU 62.7%, RAM 46.2%
+2026-03-10 04:35:14,196 - AGVM_panel - INFO - Node IN-1: CPU 62.8%, RAM 46.2%
+2026-03-10 04:36:14,789 - AGVM_panel - INFO - Node IN-1: CPU 84.3%, RAM 45.9%
+2026-03-10 04:37:15,364 - AGVM_panel - INFO - Node IN-1: CPU 71.6%, RAM 46.9%
+2026-03-10 04:38:15,949 - AGVM_panel - INFO - Node IN-1: CPU 72.7%, RAM 46.7%
+2026-03-10 04:39:16,534 - AGVM_panel - INFO - Node IN-1: CPU 76.1%, RAM 46.6%
+2026-03-10 04:40:17,120 - AGVM_panel - INFO - Node IN-1: CPU 72.0%, RAM 47.5%
+2026-03-10 04:41:17,691 - AGVM_panel - INFO - Node IN-1: CPU 67.7%, RAM 47.5%
+2026-03-10 04:42:18,263 - AGVM_panel - INFO - Node IN-1: CPU 81.9%, RAM 47.4%
+2026-03-10 04:42:25,487 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 04:42:25] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 04:42:26,728 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 04:42:26] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 04:42:27,705 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 04:42:27] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 04:42:27,709 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 04:42:27] "GET /socket.io/?EIO=4&transport=polling&t=PpM3Qpv HTTP/1.1" 200 -
+2026-03-10 04:42:27,712 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 04:42:27] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 04:42:28,215 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 04:42:28] "POST /socket.io/?EIO=4&transport=polling&t=PpM3R3q&sid=lBBJJUa29me2H-1uAAAc HTTP/1.1" 200 -
+2026-03-10 04:42:28,215 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 04:42:28] "GET /socket.io/?EIO=4&transport=polling&t=PpM3R3y&sid=lBBJJUa29me2H-1uAAAc HTTP/1.1" 200 -
+2026-03-10 04:42:28,811 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 04:42:28] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 04:42:29,539 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 04:42:29] "GET /socket.io/?EIO=4&transport=polling&t=PpM3RA0&sid=lBBJJUa29me2H-1uAAAc HTTP/1.1" 200 -
+2026-03-10 04:42:30,489 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 04:42:30] "GET /socket.io/?EIO=4&transport=websocket&sid=lBBJJUa29me2H-1uAAAc HTTP/1.1" 200 -
+2026-03-10 04:43:18,842 - AGVM_panel - INFO - Node IN-1: CPU 64.4%, RAM 47.6%
+2026-03-10 04:44:19,416 - AGVM_panel - INFO - Node IN-1: CPU 51.3%, RAM 47.6%
+2026-03-10 04:45:19,988 - AGVM_panel - INFO - Node IN-1: CPU 69.3%, RAM 47.7%
+2026-03-10 04:46:20,560 - AGVM_panel - INFO - Node IN-1: CPU 79.3%, RAM 48.7%
+2026-03-10 04:47:21,130 - AGVM_panel - INFO - Node IN-1: CPU 63.7%, RAM 47.7%
+2026-03-10 04:48:21,697 - AGVM_panel - INFO - Node IN-1: CPU 62.6%, RAM 47.6%
+2026-03-10 04:49:22,265 - AGVM_panel - INFO - Node IN-1: CPU 62.5%, RAM 47.7%
+2026-03-10 04:50:22,836 - AGVM_panel - INFO - Node IN-1: CPU 66.8%, RAM 47.7%
+2026-03-10 04:51:23,402 - AGVM_panel - INFO - Node IN-1: CPU 70.4%, RAM 47.7%
+2026-03-10 04:52:23,973 - AGVM_panel - INFO - Node IN-1: CPU 75.6%, RAM 47.7%
+2026-03-10 04:53:24,544 - AGVM_panel - INFO - Node IN-1: CPU 59.7%, RAM 47.7%
+2026-03-10 04:54:25,112 - AGVM_panel - INFO - Node IN-1: CPU 64.7%, RAM 47.7%
+2026-03-10 04:55:25,679 - AGVM_panel - INFO - Node IN-1: CPU 65.1%, RAM 47.7%
+2026-03-10 04:56:26,254 - AGVM_panel - INFO - Node IN-1: CPU 63.8%, RAM 47.8%
+2026-03-10 04:57:26,820 - AGVM_panel - INFO - Node IN-1: CPU 61.1%, RAM 47.8%
+2026-03-10 04:58:27,392 - AGVM_panel - INFO - Node IN-1: CPU 71.6%, RAM 47.8%
+2026-03-10 04:59:28,032 - AGVM_panel - INFO - Node IN-1: CPU 75.0%, RAM 47.9%
+2026-03-10 05:00:28,620 - AGVM_panel - INFO - Node IN-1: CPU 70.7%, RAM 47.9%
+2026-03-10 05:01:29,205 - AGVM_panel - INFO - Node IN-1: CPU 64.4%, RAM 47.9%
+2026-03-10 05:02:29,783 - AGVM_panel - INFO - Node IN-1: CPU 65.1%, RAM 47.8%
+2026-03-10 05:03:30,355 - AGVM_panel - INFO - Node IN-1: CPU 73.7%, RAM 47.9%
+2026-03-10 05:04:30,936 - AGVM_panel - INFO - Node IN-1: CPU 62.9%, RAM 47.9%
+2026-03-10 05:05:31,523 - AGVM_panel - INFO - Node IN-1: CPU 65.2%, RAM 48.0%
+2026-03-10 05:06:32,105 - AGVM_panel - INFO - Node IN-1: CPU 81.5%, RAM 47.9%
+2026-03-10 05:07:32,679 - AGVM_panel - INFO - Node IN-1: CPU 73.9%, RAM 49.6%
+2026-03-10 05:08:33,251 - AGVM_panel - INFO - Node IN-1: CPU 79.0%, RAM 49.6%
+2026-03-10 05:09:33,821 - AGVM_panel - INFO - Node IN-1: CPU 73.9%, RAM 49.0%
+2026-03-10 05:10:34,387 - AGVM_panel - INFO - Node IN-1: CPU 63.5%, RAM 49.0%
+2026-03-10 05:11:34,962 - AGVM_panel - INFO - Node IN-1: CPU 71.3%, RAM 47.9%
+2026-03-10 05:12:35,721 - AGVM_panel - INFO - Node IN-1: CPU 71.3%, RAM 46.2%
+2026-03-10 05:13:36,496 - AGVM_panel - INFO - Node IN-1: CPU 60.2%, RAM 47.7%
+2026-03-10 05:14:37,088 - AGVM_panel - INFO - Node IN-1: CPU 65.5%, RAM 47.6%
+2026-03-10 05:15:37,659 - AGVM_panel - INFO - Node IN-1: CPU 72.7%, RAM 47.7%
+2026-03-10 05:16:38,237 - AGVM_panel - INFO - Node IN-1: CPU 74.4%, RAM 47.7%
+2026-03-10 05:17:38,794 - AGVM_panel - INFO - Node IN-1: CPU 72.7%, RAM 47.6%
+2026-03-10 05:18:39,370 - AGVM_panel - INFO - Node IN-1: CPU 75.6%, RAM 47.8%
+2026-03-10 05:19:13,836 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:13] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-10 05:19:14,681 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:14] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 05:19:15,584 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:15] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 05:19:16,168 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:16] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 05:19:16,199 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:16] "GET /socket.io/?EIO=4&transport=polling&t=PpMBs1l HTTP/1.1" 200 -
+2026-03-10 05:19:16,421 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:16] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 05:19:16,517 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:16] "GET /socket.io/?EIO=4&transport=polling&t=PpMBsFT&sid=GExt9ppcxBy6dIaRAAAe HTTP/1.1" 200 -
+2026-03-10 05:19:16,527 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:16] "POST /socket.io/?EIO=4&transport=polling&t=PpMBsFQ&sid=GExt9ppcxBy6dIaRAAAe HTTP/1.1" 200 -
+2026-03-10 05:19:16,832 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:16] "GET /socket.io/?EIO=4&transport=polling&t=PpMBsKW&sid=GExt9ppcxBy6dIaRAAAe HTTP/1.1" 200 -
+2026-03-10 05:19:17,131 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:17] "GET /socket.io/?EIO=4&transport=polling&t=PpMBsPA&sid=GExt9ppcxBy6dIaRAAAe HTTP/1.1" 200 -
+2026-03-10 05:19:17,440 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:17] "GET /socket.io/?EIO=4&transport=polling&t=PpMBsU2&sid=GExt9ppcxBy6dIaRAAAe HTTP/1.1" 200 -
+2026-03-10 05:19:17,506 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:17] "POST /socket.io/?EIO=4&transport=polling&t=PpMBsUy&sid=GExt9ppcxBy6dIaRAAAe HTTP/1.1" 200 -
+2026-03-10 05:19:17,742 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:19:17] "GET /socket.io/?EIO=4&transport=websocket&sid=GExt9ppcxBy6dIaRAAAe HTTP/1.1" 200 -
+2026-03-10 05:19:39,946 - AGVM_panel - INFO - Node IN-1: CPU 75.9%, RAM 48.4%
+2026-03-10 05:20:37,143 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:37] "[32mGET / HTTP/1.1[0m" 302 -
+2026-03-10 05:20:38,039 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:38] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 05:20:38,652 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:38] "GET /notifications/unread HTTP/1.1" 200 -
+2026-03-10 05:20:38,672 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:38] "GET /admin/vps/expiring?days=7 HTTP/1.1" 200 -
+2026-03-10 05:20:39,037 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:39] "GET /socket.io/?EIO=4&transport=polling&t=PpMCAOu HTTP/1.1" 200 -
+2026-03-10 05:20:39,416 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:39] "GET /socket.io/?EIO=4&transport=polling&t=PpMCAUj&sid=U3wDJzH4c0rQbQ8kAAAg HTTP/1.1" 200 -
+2026-03-10 05:20:39,421 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:39] "POST /socket.io/?EIO=4&transport=polling&t=PpMCAUd&sid=U3wDJzH4c0rQbQ8kAAAg HTTP/1.1" 200 -
+2026-03-10 05:20:39,727 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:39] "GET /socket.io/?EIO=4&transport=polling&t=PpMCAZe&sid=U3wDJzH4c0rQbQ8kAAAg HTTP/1.1" 200 -
+2026-03-10 05:20:40,032 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:40] "GET /socket.io/?EIO=4&transport=polling&t=PpMCAeM&sid=U3wDJzH4c0rQbQ8kAAAg HTTP/1.1" 200 -
+2026-03-10 05:20:40,333 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:40] "GET /socket.io/?EIO=4&transport=polling&t=PpMCAj3&sid=U3wDJzH4c0rQbQ8kAAAg HTTP/1.1" 200 -
+2026-03-10 05:20:40,521 - AGVM_panel - INFO - Node IN-1: CPU 73.0%, RAM 48.0%
+2026-03-10 05:20:52,381 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:52] "GET /socket.io/?EIO=4&transport=websocket&sid=U3wDJzH4c0rQbQ8kAAAg HTTP/1.1" 200 -
+2026-03-10 05:20:53,500 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:20:53] "GET /dashboard HTTP/1.1" 200 -
+2026-03-10 05:21:06,572 - AGVM_panel - INFO - API blueprint registered at /api/v1
+2026-03-10 05:21:06,594 - AGVM_panel - INFO - AGVM PANEL v5.1-PRO-ULTIMATE starting...
+2026-03-10 05:21:06,596 - AGVM_panel - INFO - Starting server on 0.0.0.0:5000
+2026-03-10 05:21:06,596 - AGVM_panel - INFO - SocketIO available: True
+2026-03-10 05:21:06,596 - AGVM_panel - INFO - Starting with SocketIO support (production mode)
+2026-03-10 05:21:06,596 - AGVM_panel - INFO - Using Flask-SocketIO's built-in production server
+2026-03-10 05:21:06,596 - AGVM_panel - INFO - For best performance, ensure eventlet or gevent is installed:
+2026-03-10 05:21:06,596 - AGVM_panel - INFO -   pip install eventlet  OR  pip install gevent gevent-websocket
+2026-03-10 05:21:06,596 - werkzeug - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2026-03-10 05:21:06,599 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.3:5000
+2026-03-10 05:21:06,599 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-10 05:21:07,465 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:21:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-10 05:21:10,381 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:21:10] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-03-10 05:21:10,692 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:21:10] "GET /login?next=/dashboard HTTP/1.1" 200 -
+2026-03-10 05:21:11,603 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2026 05:21:11] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2026-03-10 05:22:07,169 - AGVM_panel - INFO - Node IN-1: CPU 71.6%, RAM 47.8%
+2026-03-10 05:23:07,736 - AGVM_panel - INFO - Node IN-1: CPU 63.1%, RAM 47.7%
+

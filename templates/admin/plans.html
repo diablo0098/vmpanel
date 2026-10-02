@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}Manage VPS Plans - {{ panel_name }}{% endblock %}
+{% block header_title %}Manage VPS Plans{% endblock %}
+
+{% block content %}
+<div class="grid grid-2" style="align-items: start;">
+    <div class="card">
+        <div class="card-header"><h3 class="card-title"><i class="fas fa-plus"></i> Add a plan</h3></div>
+        <form method="post">
+            <div class="form-group">
+                <label for="name">Plan name</label>
+                <input class="form-control" id="name" name="name" maxlength="60" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea class="form-control" id="description" name="description" rows="2"></textarea>
+            </div>
+            <div class="grid grid-2">
+                <div class="form-group"><label for="cpu">vCPU</label><input class="form-control" id="cpu" name="cpu" type="number" min="1" max="64" value="1" required></div>
+                <div class="form-group"><label for="ram_gb">RAM (GB)</label><input class="form-control" id="ram_gb" name="ram_gb" type="number" min="1" max="512" value="1" required></div>
+                <div class="form-group"><label for="storage_gb">Storage (GB)</label><input class="form-control" id="storage_gb" name="storage_gb" type="number" min="1" max="10000" value="10" required></div>
+                <div class="form-group"><label for="price_coins">Price (coins)</label><input class="form-control" id="price_coins" name="price_coins" type="number" min="1" max="100000000" value="100" required></div>
+            </div>
+            <div class="form-group">
+                <label for="os_version">Operating system</label>
+                <select class="form-control" id="os_version" name="os_version">
+                    {% for os in os_options %}<option value="{{ os.value }}">{{ os.label }}</option>{% endfor %}
+                </select>
+            </div>
+            <button class="btn btn-primary" type="submit"><i class="fas fa-save"></i> Add plan</button>
+        </form>
+    </div>
+
+    <div class="card">
+        <div class="card-header"><h3 class="card-title"><i class="fas fa-tags"></i> Current plans</h3></div>
+        {% if plans %}
+        <div class="table-responsive">
+            <table class="table">
+                <thead><tr><th>Plan</th><th>Resources</th><th>Price</th><th>Status</th><th></th></tr></thead>
+                <tbody>
+                    {% for plan in plans %}
+                    <tr>
+                        <td>{{ plan.name }}</td>
+                        <td>{{ plan.cpu }} CPU / {{ plan.ram_gb }} GB / {{ plan.storage_gb }} GB</td>
+                        <td>{{ plan.price_coins }} coins</td>
+                        <td><span class="badge badge-{{ 'success' if plan.is_active else 'danger' }}">{{ 'Active' if plan.is_active else 'Disabled' }}</span></td>
+                        <td>
+                            <form method="post" action="{{ url_for('admin_toggle_plan', plan_id=plan.id) }}">
+                                <button class="btn btn-sm btn-outline" type="submit">{{ 'Disable' if plan.is_active else 'Enable' }}</button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}<p class="text-muted">No plans are configured.</p>{% endif %}
+    </div>
+</div>
+{% endblock %}

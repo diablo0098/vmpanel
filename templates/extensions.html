@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}HVM Add-ons - {{ panel_name }}{% endblock %}
+{% block header_title %}HVM Add-ons{% endblock %}
+
+{% block content %}
+<div class="card" style="margin-bottom: 1.5rem;">
+    <h2>Built-in add-ons</h2>
+    <p class="text-muted">Useful HVM panel modules, ready to use. These are built-in features; this page does not run or install third-party code.</p>
+</div>
+
+<div class="grid grid-3">
+    <div class="card">
+        <div class="stat-icon primary"><i class="fas fa-terminal"></i></div>
+        <h3 style="margin-top: 1rem;">VPS Web Terminal</h3>
+        <p class="text-muted">Open an interactive SSH terminal for a VPS you own.</p>
+        <a href="{{ url_for('vps_list') }}" class="btn btn-outline">Open My VPS</a>
+    </div>
+    <div class="card">
+        <div class="stat-icon warning"><i class="fas fa-coins"></i></div>
+        <h3 style="margin-top: 1rem;">Coin Wallet</h3>
+        <p class="text-muted">Claim a daily reward and review coin activity.</p>
+        <a href="{{ url_for('coin_wallet') }}" class="btn btn-outline">Open wallet</a>
+    </div>
+    <div class="card">
+        <div class="stat-icon success"><i class="fas fa-server"></i></div>
+        <h3 style="margin-top: 1rem;">VPS Plan Store</h3>
+        <p class="text-muted">Use coins to provision a VPS with preset resources.</p>
+        <a href="{{ url_for('plan_store') }}" class="btn btn-outline">Browse plans</a>
+    </div>
+    <div class="card">
+        <div class="stat-icon info"><i class="fas fa-network-wired"></i></div>
+        <h3 style="margin-top: 1rem;">Port Forwarding</h3>
+        <p class="text-muted">Manage forwarded ports for your VPS instances.</p>
+        <a href="{{ url_for('ports_list') }}" class="btn btn-outline">Manage ports</a>
+    </div>
+    <div class="card">
+        <div class="stat-icon danger"><i class="fas fa-database"></i></div>
+        <h3 style="margin-top: 1rem;">VPS Backups</h3>
+        <p class="text-muted">Open a VPS to view its backup and restore tools.</p>
+        <a href="{{ url_for('vps_list') }}" class="btn btn-outline">View VPS instances</a>
+    </div>
+</div>
+{% endblock %}

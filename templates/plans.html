@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}VPS Plans - {{ panel_name }}{% endblock %}
+{% block header_title %}VPS Plans{% endblock %}
+
+{% block content %}
+<div class="card" style="margin-bottom: 1.5rem;">
+    <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+        <div>
+            <h2 style="margin-bottom: 0.35rem;">Choose your VPS</h2>
+            <p class="text-muted" style="margin: 0;">Plans are a one-time coin purchase. A VPS is created on an available node.</p>
+        </div>
+        <a href="{{ url_for('coin_wallet') }}" class="btn btn-outline"><i class="fas fa-coins"></i> {{ balance }} coins</a>
+    </div>
+</div>
+
+{% if plans %}
+<div class="grid grid-3">
+    {% for plan in plans %}
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">{{ plan.name }}</h3>
+        </div>
+        <p class="text-muted">{{ plan.description or 'A VPS configured for your workloads.' }}</p>
+        <div style="display: grid; gap: 0.65rem; margin: 1rem 0;">
+            <div><i class="fas fa-microchip" style="width: 1.5rem; color: var(--accent-primary);"></i> {{ plan.cpu }} vCPU</div>
+            <div><i class="fas fa-memory" style="width: 1.5rem; color: var(--accent-primary);"></i> {{ plan.ram_gb }} GB RAM</div>
+            <div><i class="fas fa-hdd" style="width: 1.5rem; color: var(--accent-primary);"></i> {{ plan.storage_gb }} GB storage</div>
+            <div><i class="fas fa-box" style="width: 1.5rem; color: var(--accent-primary);"></i> {{ get_os_label(plan.os_version) }}</div>
+        </div>
+        <div style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; color: var(--accent-warning);">
+            {{ plan.price_coins }} <small style="font-size: 0.85rem;">coins</small>
+        </div>
+        <form method="post" action="{{ url_for('purchase_plan', plan_id=plan.id) }}"
+              onsubmit="return confirm('Purchase this VPS plan using coins and create the server?');">
+            <button class="btn btn-primary btn-block" type="submit" {% if balance < plan.price_coins %}disabled{% endif %}>
+                <i class="fas fa-shopping-cart"></i>
+                {% if balance < plan.price_coins %}Not enough coins{% else %}Purchase and create VPS{% endif %}
+            </button>
+        </form>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="card">
+    <h3>No VPS plans are available</h3>
+    <p class="text-muted">Please check back later or contact an administrator.</p>
+</div>
+{% endif %}
+{% endblock %}
